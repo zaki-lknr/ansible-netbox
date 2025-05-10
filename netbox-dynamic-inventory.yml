@@ -1,0 +1,8 @@
+---
+plugin: netbox.netbox.nb_inventory
+validate_certs: false
+
+group_by:
+  - device_roles
+  - device_types
+  - status
